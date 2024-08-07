@@ -10,20 +10,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" >
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
-    <title>Terry's Quiz Game</title>
+    <link rel="stylesheet" href="highscores.css">
+
+    <title>High Scores</title>
 </head>
 <body>
-
+    
     <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <h1>Ready to play?</h1>
-            <a href="game.html" class="btn">Play</a>
-            <a href="highscores.html" id="highscore-btn" class="btn">Top 
-                Scores<i class="fas fa-crown"></i></a>
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="finalScore">Leaderboard</h1>
+            <ul id="highScoresList"></ul>
+            <a href="/" class="btn">Return Home<i class="fas fa-home"></i></a>
         </div>
     </div>
-    
 
+        
+    <script src="highscores.js"></script>
     <script src="https://kit.fontawesome.com/eaf057267a.js" crossorigin="anonymous"></script>
 </body>
 </html>
