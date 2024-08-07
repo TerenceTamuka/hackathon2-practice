@@ -12,12 +12,12 @@ let availableQuestions = []
 
 let questions = [
     {
-       question: 'What is the capital of France?',
-       choice1: 'Paris',
-       choice2: 'Madrid',
-       choice3: 'Berlin',
-       choice4: 'London',
-       answer: 1,
+        question: 'What is the largest ocean on Earth?',
+        choice1: 'Atlantic Ocean',
+        choice2: 'Indian Ocean',
+        choice3: 'Arctic Ocean',
+        choice4: 'Pacific Ocean',
+        answer: 4,
     },
     {
         question: 'Which country is known as the Land of the Rising Sun?',
@@ -36,17 +36,65 @@ let questions = [
         answer: 1,
      },
      {
-        question: 'Who wrote the play "Romeo and Juliet"?',
-        choice1: 'William Shakespeare',
-        choice2: 'Charles Dickens',
-        choice3: 'Mark Twain',
-        choice4: 'Jane Austen',
-        answer: 1,
+        question: 'What is the powerhouse of the cell?',
+        choice1: 'Nucleus',
+        choice2: 'Mitochondria',
+        choice3: 'Ribosome',
+        choice4: 'Endoplasmic Reticulum',
+        answer: 2,
      },
+     {
+        question: 'Who painted the Mona Lisa?',
+        choice1: 'Vincent van Gogh',
+        choice2: 'Leonardo da Vinci',
+        choice3: 'Pablo Picasso',
+        choice4: 'Claude Monet',
+        answer: 2,
+    },
+    {
+        question: 'Who discovered penicillin?',
+        choice1: 'Marie Curie',
+        choice2: 'Alexander Fleming',
+        choice3: 'Isaac Newton',
+        choice4: 'Albert Einstein',
+        answer: 2,
+    },
+    {
+        question: 'In which year did the Titanic sink?',
+        choice1: '1905',
+        choice2: '1912',
+        choice3: '1920',
+        choice4: '1935',
+        answer: 2,
+    },
+    {
+        question: 'What is the largest desert in the world?',
+        choice1: 'Sahara Desert',
+        choice2: 'Arabian Desert',
+        choice3: 'Gobi Desert',
+        choice4: 'Antarctic Desert',
+        answer: 4,
+    },
+    {
+        question: 'Who is known as the "Father of Computers"?',
+        choice1: 'Alan Turing',
+        choice2: 'Charles Babbage',
+        choice3: 'John von Neumann',
+        choice4: 'Bill Gates',
+        answer: 2,
+    },
+    {
+        question: 'Which physicist developed the theory of relativity?',
+        choice1: 'Isaac Newton',
+        choice2: 'Niels Bohr',
+        choice3: 'Albert Einstein',
+        choice4: 'Galileo Galilei',
+        answer: 3,
+    }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
 
