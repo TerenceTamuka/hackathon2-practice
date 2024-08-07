@@ -73,3 +73,9 @@ body {
         min-width: 40rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .choice-container {
+        min-width: 30rem; /* Example adjustment for smaller screens */
+    }
+}
