@@ -68,14 +68,32 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .choice-container {
         min-width: 40rem;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+
+    #question {
+        font-size: 1.5rem; /* Adjust font size for better readability on mobile */
+        padding: 1rem; /* Add padding for better spacing */
+        text-align: center; /* Center-align the text for a cleaner look */
+        word-wrap: break-word; /* Ensure long words break and wrap to the next line */
     }
 }
 
 @media screen and (max-width: 480px) {
     .choice-container {
         min-width: 30rem; /* Example adjustment for smaller screens */
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+    }
+
+    #question {
+        font-size: 1.2rem; /* Further adjust font size for smaller screens */
+        padding: 1rem;
+        text-align: center;
+        word-wrap: break-word;
     }
 }
