@@ -30,7 +30,7 @@ const saveHighScore = e => {
     highScores.splice(5)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/highscores.html')
+    window.location.assign('highscores.html')
 }
 
 // Attach the saveHighScore function to the saveScoreBtn click event
