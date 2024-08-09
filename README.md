@@ -1,131 +1,352 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Terry's General Knowledge Quiz Game
 
-Welcome Terence Zengeya,
+- Welcome to Terry's General Knowledge Quiz Game! This interactive quiz challenges players with 20 questions covering a wide range of topics. As you progress through the game, your score will be updated in real-time, allowing you to see how well you're doing after each question.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Home Page]()
 
-## Gitpod Reminders
+# UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- The General Knowledge Quiz Game is designed to provide a seamless, engaging, and intuitive experience for players of all ages. The game flow, feedback mechanisms, and user interface have been carefully crafted to ensure that players can focus on the challenge of answering questions while enjoying a smooth and rewarding experience.
 
-`python3 -m http.server`
+- Overall, the General Knowledge Quiz Game is designed to be engaging, easy to navigate, and rewarding, with a focus on clear feedback and a competitive edge through the leaderboard system.
 
-A blue button should appear to click: _Make Public_,
+## 1. Starting the Game
 
-Another blue button should appear to click: _Open Browser_.
+ - Welcome Screen: Players are greeted with a clean and inviting welcome screen featuring clear options to start the game or view the leaderboard.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+ - Easy Navigation: The user interface is straightforward, with prominent buttons for starting the quiz, making it easy for users to begin.
 
-A blue button should appear to click: _Make Public_,
+## 2. Gampeplay Experieance
 
-Another blue button should appear to click: _Open Browser_.
+- Question Display: Each of the 20 questions is presented one at a time, with a simple and legible layout. The current question number and score are displayed at the top, keeping players informed of their progress.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Real-Time Feedback: As players select answers, their score is immediately updated and displayed on the screen, providing instant gratification or motivation to improve.
 
-To log into the Heroku toolbelt CLI:
+- Clear Instructions: Instructions are minimal and intuitive, allowing players to focus on answering questions without unnecessary distractions.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## 3. End of Game and Scoring
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- Final Score Display: At the end of the quiz, players see their final score prominently displayed, offering a moment of reflection on their performance.
 
-### Connecting your Mongo database
+- Name Entry Requirement: To save their score, players are prompted to enter their name. This step is mandatory, ensuring that the leaderboard remains personalized and competitive.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+- Error Handling: If a player attempts to save their score without entering a name, a friendly reminder prompts them to do so.
 
-------
+## 4. Leaderboard and Replay Options
 
-## Release History
+- Leaderboard Integration: After entering their name, players see their score added to the leaderboard. This page is designed to motivate players by showcasing top scores and encouraging them to aim higher.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Play Again: From the leaderboard, players can easily choose to replay the quiz, offering an opportunity to improve their score and climb the rankings.
 
-**June 18, 2024,** Add Mongo back into template
+## 5. Responsive Design
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- Mobile-Friendly: The game is optimized for various devices, ensuring that the experience is consistent and enjoyable whether played on a desktop, tablet, or smartphone.
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+# User Stories
 
-**September 20 2023:** Update Python version to 3.9.17.
+- As a **user** I want **to easily start the quiz from the home screen** so that **I can quickly begin answering questions**.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- As a **user** I want **to see the current question number and my score as I progress through the quiz** so that **I can keep track of my performance**.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- As a **user**, I want **the quiz questions to be displayed clearly with multiple-choice options** so that **I can easily select my answers**.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- As a **user**, I want **to receive immediate feedback on my score after each question** so that **I can know how well I’m doing in real-time**.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- As a **user**, I want **to view my final score after completing the quiz** so that **I can reflect on my overall performance**.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- As a **user**, I want **to be required to enter my name before saving my score** so that **the leaderboard displays personalized entries**.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a **user**, I want **the option to replay the quiz from the leaderboard screen** so that **I can attempt to improve my score**.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- 20 Challenging Questions: Test your knowledge with a variety of questions from different subjects.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Real-Time Scoring: Your score is displayed as you answer each question, giving you instant feedback.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Leaderboard Integration: At the end of the game, you'll be prompted to enter your name before saving your score to the leaderboard.
 
-------
+- Save and Compete: Your name and score are saved to a leaderboard, where you can see how you stack up against your individual previous attempts.
 
-## FAQ about the uptime script
+- Play Again: After completing the quiz, you can choose to play again and improve your score.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Site Wireframes
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-__Home Page__
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Home page -Desktop view]()
+![Home page -Mobile view]()
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+-__Quiz Game Page__
 
-**So….?**
+![Quiz game - Desktop View]()
+![Quiz game - Mobile View]()
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+-__Submit Score Page__
 
-**Can I opt out?**
+![Submit Score page - Desktop view]()
+![Submit Score page - Mobile view]()
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+-__Leaderboard or Top Scores Page__
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Leaderboard page - Desktop view]()
 
-**Anything more?**
+![Leaderboard page - Mobile view]()
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+## Surface
 
-Happy coding!
+Favicon logo designed on: (https://favicon.io/logo-generator/)
+
+### Design
+
+The home icon and crown icons where used from the Fontawesome libraries gathered from (https://fontawesome.com/)
+
+#### Selected Colors
+
+__Background color__ - Dark Cerulean
+
+__Progress Bar color__ - Green
+
+__Choice containter__ - Orange
+
+__Correct Answer__ - Green
+
+__Incorrect Answer__ - Red
+
+
+### fonts
+
+
+
+The "Ubuntu" cursive font was utilised. Generated from Google Fonts (https://fonts.google.com/?preview.layout=grid)
+
+
+
+## Technologies Utilised
+
+- HTML
+
+- CSS3
+
+- JavaScript
+
+## Testing
+
+The quiz game has been tested on Safari, Opera, Chrome and Microsoft Edge
+
+The quiz game has been vigorously tested throughout the developmment process for responsiveness across various devices curtesy of the chrome developer tools
+
+### Validating
+
+- HTML
+
+  - [HTML Validation](https://validator.w3.org/)
+
+  ![HTML]()
+
+- CSS
+
+  -[CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+  ![CSS]()
+
+- JavaScript
+
+  - [JavaScript Validation](https://validator.w3.org/)
+
+  ![JavaScript]()
+
+- Lighthouse tools were also utilised to test the website.
+
+Desktop :
+
+![Home page - Desktop Scores]()
+![Quiz page - Desktop Scores]()
+![Submit score page - Desktop Scores]()
+![Leaderboard page - Desktop Scores]()
+
+
+Mobile View:
+
+![Home page - Mobile Scores]()
+![Quiz page - Mobile Scores]()
+![Submit score page - Mobile Scores]()
+![Leaderboard page - Mobile Scores]()
+
+## User Story Testing
+
+__1__ - As a **user** I want **to easily start the quiz from the home screen** so that **I can quickly begin answering questions**.
+
+![User story 1 Test]()
+
+__2__ - As a **user** I want **to see the current question number and my score as I progress through the quiz** so that **I can keep track of my performance**.
+
+![User story 2 Test]()
+
+__3__ - As a **user**, I want **the quiz questions to be displayed clearly with multiple-choice options** so that **I can easily select my answers**.
+
+![User story 3 Test]()
+
+__4__ - As a **user**, I want **to receive immediate feedback on my score after each question** so that **I can know how well I’m doing in real-time**.
+
+![User story 4 Test]()
+
+__5__ - As a **user**, I want **to view my final score after completing the quiz** so that **I can reflect on my overall performance**.
+
+![User story 5 Test]()
+
+__6__ - As a **user**, I want **to be required to enter my name before saving my score** so that **the leaderboard displays personalized entries**.
+
+![User story 6 Test]()
+
+__7__ - As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
+
+![User story 7 Test]()
+
+__8__- As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
+
+![User story 8 Test]()
+
+__9__- As a **user**, I want **the option to replay the quiz from the leaderboard screen** so that **I can attempt to improve my score**.
+
+![User story 9 Test]()
+
+__10__ - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
+
+![User story 10 Test]()
+
+
+### Features For Future Implementation
+
+The below features can significantly enhance the user experience and engagement with the quiz game, offering more variety, challenge, and interactivity.
+
+__1__ - __Timer-Based Questions__
+
+- Description: Introduce a countdown timer for each question, adding an element of urgency and challenge. Players must answer within the given time frame or the question will be marked incorrect.
+
+__2__ - __Question Categories__
+
+- Description: Allow users to select specific categories of questions (e.g., History, Science, Entertainment) before starting the quiz, providing a more tailored experience.
+
+__3__ - __Difficulty Levels__
+
+- Description: Implement varying difficulty levels (Easy, Medium, Hard) that users can choose from. This could involve more challenging questions or stricter time limits for harder levels.
+
+__4__ - __Hint System__
+
+- Description: Add a hint system that allows users to spend points or take a penalty to receive hints or eliminate incorrect answers for particularly tough questions.
+
+__5__ - __Multiplayer Mode__
+
+- Description: Develop a multiplayer mode where users can compete against friends or other players online in real-time, seeing who can answer the most questions correctly within a time limit.
+
+__6__ - __Social Sharing of Scores__
+
+- Description: Integrate social media sharing options, allowing users to post their final scores to platforms like Twitter or Facebook, challenging friends to beat their high scores.
+
+__7__ - __Progressive Difficulty__
+
+- Description: Implement a system where the difficulty of questions increases as the player progresses through the quiz, maintaining a challenging experience throughout.
+
+__8__ - __Achievements and Badges__
+
+- Description: Introduce a system of achievements and badges that players can earn for reaching certain milestones, such as answering all questions correctly, achieving a streak of correct answers, or completing a certain number of quizzes.
+
+__9__ - __Audio and Visual Feedback__
+
+- Description: Enhance the game experience with sound effects and animations that respond to correct or incorrect answers, as well as dynamic transitions between questions.
+
+__10__ - __In-Depth Analytics__
+
+- Description: Provide users with detailed analytics at the end of the quiz, such as their accuracy percentage, time taken per question, and performance trends over multiple games.
+
+## Known Issues and Bugs
+
+__1__ - __Inconsistent Score Display__
+
+- Description: Occasionally, the score may not update correctly during the quiz, showing the previous score instead of the updated one.
+
+- Workaround: Refresh the page to reset the game. If the issue persists, clear your browser’s cache and try again.
+
+__2__ - __Name Field Validation__
+
+- Description: The game may allow users to attempt to save their score without entering a valid name, especially if the name field is autofilled by the browser.
+
+- Workaround: Ensure that users manually input their names before attempting to save their scores.
+
+__3__ - __Leaderboard Duplication__
+
+- Description: In rare cases, the same score may appear multiple times on the leaderboard if the save button is clicked multiple times rapidly.
+
+- Workaround: Avoid clicking the save button multiple times. If duplication occurs, refresh the page to view the correct leaderboard.
+
+__4__ - __Responsive Design Issues on Small Screens__
+
+- Description: On some small mobile devices, the game elements may not be perfectly aligned or may require excessive scrolling.
+
+- Workaround: Adjust the zoom level of the browser or try switching to landscape mode for better visibility.
+
+__5__ - __Slow Performance on Older Browsers__
+
+- Description: The game may experience slow performance or lag when played on older web browsers, particularly those that do not fully support modern JavaScript or CSS features.
+
+- Workaround: Use the latest version of Chrome, Firefox, Safari, or Edge for the best experience.
+
+__6__ - __Form Submission Delays__
+
+- Description: After entering their name and clicking the save button, users may experience a delay before the leaderboard updates.
+
+- Workaround: Please wait a few seconds after submitting. If the delay persists, check your internet connection.
+
+__7__ - __Navigation Issues on Some Mobile Devices__
+
+- Description: Users on certain mobile devices may find it difficult to navigate back to the home page or restart the game after finishing the quiz.
+
+- Workaround: Use the browser’s back button or manually refresh the page to restart the game.
+
+__8__ - __Missing or Incorrect Icons__
+
+- Description: In some cases, the Font Awesome icons used on buttons (such as the home or crown icons) may not display correctly.
+
+- Workaround: Ensure a stable internet connection as the icons are fetched from an external CDN. Try clearing the browser cache if the problem persists.
+
+__9__ - __Progress Bar Display Issues__
+
+- Description: The progress bar that shows how many questions have been answered may not fill up correctly if the browser window is resized during the game.
+
+- Workaround: Avoid resizing the browser window during gameplay. If this issue occurs, refresh the page to reset the game.
+
+__10__ - __Local Storage Limits__
+
+- Description: The leaderboard data is stored in the browser's local storage, which has size limitations. Over time, this may cause issues with saving new scores.
+
+- Workaround: Clear your browser’s local storage periodically, but be aware that this will also delete your saved leaderboard data.
+
+## Deployment
+
+### Credits
+
+Credit to stack overflow on understaning certain concepts used in this project.
+
+### Content
+
+## Acknowledgements
+
+Chat GPT with suggesting questions included in the game.
+
+
+### Terry's General Knowledge Quiz Game Designed by
+
+Terence Zengeya
