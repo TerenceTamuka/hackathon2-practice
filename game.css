@@ -81,6 +81,11 @@ body {
         text-align: center; /* Center-align the text for a cleaner look */
         word-wrap: break-word; /* Ensure long words break and wrap to the next line */
     }
+    .fa-crown {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -96,4 +101,9 @@ body {
         text-align: center;
         word-wrap: break-word;
     }
+    .fa-crown {
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    
 }

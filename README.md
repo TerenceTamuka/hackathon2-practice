@@ -85,24 +85,27 @@
 
 -__Home Page__
 
-![Home page -Desktop view]()
-![Home page -Mobile view]()
+![Home page -Desktop view](media/HomePage-Desktop-View.png)
+![Home page -iPad view](media/iPad-view-homepage.png)
+![Home page -Mobile view](media/Mobile-view-homepage.png)
 
 -__Quiz Game Page__
 
-![Quiz game - Desktop View]()
-![Quiz game - Mobile View]()
+![Quiz game - Desktop View](media/QuizPage-Desktop-View.png)
+![Quiz game - iPad View](media/iPad-view-quizpage.png)
+![Quiz game - Mobile View](media/Mobile-view-quizpage.png)
 
--__Submit Score Page__
+-__Submit Score or End Page__
 
-![Submit Score page - Desktop view]()
-![Submit Score page - Mobile view]()
+![Submit Score page - Desktop view](media/EndPage-Desktop-View.png)
+![Submit Score page - iPad view](media/iPad-view-endpage.png)
+![Submit Score page - Mobile view](media/Mobile-view-endpage.png)
 
 -__Leaderboard or Top Scores Page__
 
-![Leaderboard page - Desktop view]()
-
-![Leaderboard page - Mobile view]()
+![Leaderboard page - Desktop view](media/HighscorePage-Desktop-View.png)
+![Leaderboard page - iPad view](media/iPad-view-highscorespage.png)
+![Leaderboard page - Mobile view](media/Mobile-view-highscorespage.png)
 
 
 ## Surface
