@@ -3,7 +3,7 @@
 - Welcome to Terry's General Knowledge Quiz Game! This interactive quiz challenges players with 20 questions covering a wide range of topics. As you progress through the game, your score will be updated in real-time, allowing you to see how well you're doing after each question.
 
 
-![Home Page]()
+![Home Page](media/AllViews.png)
 
 # UX
 
