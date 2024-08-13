@@ -27,6 +27,7 @@ h1 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    font-family: "Ubuntu", cursive;
 }
 
 .flex-column {
@@ -163,6 +164,7 @@ input::placeholder{
         padding: 1rem; /* Add padding for better spacing */
         text-align: center; /* Center-align the text for a cleaner look */
         word-wrap: break-word; /* Ensure long words break and wrap to the next line */
+        
     }
     .fa-crown {
         font-size: 2.5rem;

@@ -149,7 +149,11 @@ The "Ubuntu" cursive font was utilised. Generated from Google Fonts (https://fon
 
 The quiz game has been tested on Safari, Opera, Chrome and Microsoft Edge
 
-The quiz game has been vigorously tested throughout the developmment process for responsiveness across various devices curtesy of the chrome developer tools
+The quiz game has been vigorously tested throughout the developmment process for responsiveness across various devices curtesy of the chrome developer tools.
+
+In order to make sure the application passes the background and foreground lighouse tests, contrast checker was used to provide an efficient color mix between the background and foreground of the questions and the containers for better UX especially in aid of visually impaired users.
+
+![Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 ### Validating
 
