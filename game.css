@@ -7,7 +7,7 @@ body {
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(255, 93, 18);
+    background: rgb(179, 63, 12);/**Chose a darker shade for readability for players **//* background: rgb(255, 93, 18); */
     font-size: 3rem;
     min-width: 80rem;
 }
