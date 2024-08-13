@@ -168,6 +168,13 @@ input::placeholder{
         font-size: 2.5rem;
         margin-left: 1rem;
     }
+    .correct {
+        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+    }
+    
+    .incorrect {
+        background: linear-gradient(45deg, rgba(230, 29, 1) 0%, rgba(224, 11, 11, 1) 100%);
+    }
     
 }
 
@@ -181,6 +188,13 @@ input::placeholder{
 
     .container {
         padding: 0.5rem;
+    }
+    .correct {
+        background: linear-gradient(45deg, rgba(11, 223, 36) 0%, rgba(41, 232, 111) 100%);
+    }
+    
+    .incorrect {
+        background: linear-gradient(45deg, rgba(230, 29, 1) 0%, rgba(224, 11, 11, 1) 100%);
     }
 
     .btn {
