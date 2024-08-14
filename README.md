@@ -110,30 +110,36 @@
 
 ## Surface
 
-Favicon logo designed on: (https://favicon.io/logo-generator/)
+Favicon logo generated on: [Favicon Generator](https://favicon.io/logo-generator/)
 
 ### Design
 
-The home icon and crown icons where used from the Fontawesome libraries gathered from (https://fontawesome.com/)
+The home icon and crown icons where used from the [Fontawesome library](https://fontawesome.com/)
 
 #### Selected Colors
 
 __Background color__ - Dark Cerulean
 
+__Home, End Page & High Scores Page Navabar color__ - Orange Linear gradient 
+
+__Application Handwritting color__ - White
+
 __Progress Bar color__ - Green
 
-__Choice containter__ - Orange
+__Question and Answer color__ - White
 
 __Correct Answer__ - Green
 
 __Incorrect Answer__ - Red
+
+__Answers Choice containter__ - Rust or Dark Orange
 
 
 ### fonts
 
 
 
-The "Ubuntu" cursive font was utilised. Generated from Google Fonts (https://fonts.google.com/?preview.layout=grid)
+The "Ubuntu" cursive font was utilised in this application. Generated from [Google Fonts](https://fonts.google.com/?preview.layout=grid)
 
 
 
@@ -147,13 +153,13 @@ The "Ubuntu" cursive font was utilised. Generated from Google Fonts (https://fon
 
 ## Testing
 
-The quiz game has been tested on Safari, Opera, Chrome and Microsoft Edge
+- The quiz game has been tested on Safari, Opera, Chrome and Microsoft Edge
 
-The quiz game has been vigorously tested throughout the developmment process for responsiveness across various devices curtesy of the chrome developer tools.
+- The quiz game has been vigorously tested throughout the developmment process for responsiveness across various devices curtesy of the chrome developer tools.
 
-In order to make sure the application passes the background and foreground lighouse tests, contrast checker was used to provide an efficient color mix between the background and foreground of the questions and the containers for better UX especially in aid of visually impaired users.
+- In order to make sure the application passes the background and foreground lightouse tests, contrast ratio checker was used to provide a sufficient contrast ratio between the background and foreground of the questions and the containers for better UX especially in aid of partially visual impaired users.
 
-![Contrast Checker](https://webaim.org/resources/contrastchecker/)
+__Contrast Ratio Checker__ [Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 ### Validating
 
