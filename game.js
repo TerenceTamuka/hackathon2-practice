@@ -184,6 +184,11 @@ let questions = [
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 20
 
+const timerText = document.querySelector('#timer'); // Get the timer element
+let timer;
+let timeLeft = 10; // Time in seconds
+
+
 startGame = () => {
 
     questionCounter = 0
@@ -191,6 +196,31 @@ startGame = () => {
     availableQuestions = [...questions]
     getNewQuestion()
 
+}
+
+startTimer = () => {
+    timeLeft = 10; // Reset timer to 10 seconds
+    timerText.innerText = timeLeft;
+
+    timer = setInterval(() => {
+        timeLeft--;
+        timerText.innerText = timeLeft;
+
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            // If time runs out, apply incorrect class and move to next question
+            choices.forEach(choice => {
+                choice.parentElement.classList.add('incorrect');
+            });
+
+            setTimeout(() => {
+                choices.forEach(choice => {
+                    choice.parentElement.classList.remove('incorrect');
+                });
+                getNewQuestion();
+            }, 1000);
+        }
+    }, 1000);
 }
 
 getNewQuestion = () => {
@@ -218,6 +248,9 @@ getNewQuestion = () => {
 
     acceptingAnswers = true
 
+    clearInterval(timer); // Clear any existing timer
+    startTimer(); // Start a new timer for the current question
+
 }
 
 choices.forEach(choice => {
@@ -236,6 +269,8 @@ choices.forEach(choice => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
+
+        clearInterval(timer); // Stop the timer when an answer is selected
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)

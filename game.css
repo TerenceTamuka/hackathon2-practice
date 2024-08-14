@@ -19,6 +19,12 @@ body {
     transform: transform 100ms;
 }
 
+#timer{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 .choice-prefix {
     padding: 2rem 2.5rem;
     color: white;
@@ -94,6 +100,11 @@ body {
         font-size: 2.5rem;
         margin-left: 1rem;
     }
+    #timer{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
     
 }
 
@@ -121,6 +132,11 @@ body {
     .fa-crown {
         font-size: 2.5rem;
         margin-left: 1rem;
+    }
+    #timer{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+        text-align: center;
     }
     
 }
