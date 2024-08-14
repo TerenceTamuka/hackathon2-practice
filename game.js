@@ -172,12 +172,12 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'What is the value of the mathematical constant "e" rounded to three decimal places?',
-        choice1: '2.718',
-        choice2: '3.142',
-        choice3: '1.414',
-        choice4: '1.618',
-        answer: 1,
+        question: 'Which physicist is known for the Uncertainty Principle?',
+        choice1: 'Albert Einstein',
+        choice2: 'Isaac Newton',
+        choice3: 'Werner Heisenberg',
+        choice4: 'Niels Bohr',
+        answer: 3,
     }
 ]
 

@@ -43,6 +43,14 @@
 
 - Mobile-Friendly: The game is optimized for various devices, ensuring that the experience is consistent and enjoyable whether played on a desktop, tablet, or smartphone.
 
+## 6. 10 Seconds timer on each question
+
+- Pressure and Excitement: A time limit adds pressure, making the game more challenging and exciting. Players must think quickly, which can enhance the overall thrill of the game.
+
+- Uniform Experience: A consistent time limit ensures that all players have the same amount of time to answer each question, making the game fairer and more standardized.
+
+- Limits Cheating Opportunities: The time constraint reduces the likelihood of players searching for answers online or consulting external resources, as they don't have enough time to do so within 10 seconds.
+
 
 # User Stories
 
@@ -70,6 +78,8 @@
 # Features
 
 - 20 Challenging Questions: Test your knowledge with a variety of questions from different subjects.
+
+- 10 seconds timer on each question for a more engaged and exciting UX.
 
 - Real-Time Scoring: Your score is displayed as you answer each question, giving you instant feedback.
 
@@ -346,6 +356,8 @@ __9__ - __Progress Bar Display Issues__
 __10__ - __Local Storage Limits__
 
 - Description: The leaderboard data is stored in the browser's local storage, which has size limitations. Over time, this may cause issues with saving new scores.
+
+- The timer function inclusion also helps on potential timeout and session timeout issues.
 
 - Workaround: Clear your browser’s local storage periodically, but be aware that this will also delete your saved leaderboard data.
 
