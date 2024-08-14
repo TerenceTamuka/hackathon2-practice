@@ -74,6 +74,7 @@
 
 - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
+- As a **site manager**, I want to **enhance the quiz application by introducing a 10-second timer for each of the 20 questions in the quiz** so that **I can increase the challenge and engagement level for users, making the quiz more dynamic and exciting while encouraging quick thinking and fair competition**.
 
 # Features
 
