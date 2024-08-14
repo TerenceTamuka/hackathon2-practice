@@ -43,13 +43,40 @@
 
 - Mobile-Friendly: The game is optimized for various devices, ensuring that the experience is consistent and enjoyable whether played on a desktop, tablet, or smartphone.
 
-## 6. 10 Seconds timer on each question
+## 6. 10 Seconds Timer On Each Question
 
-- Pressure and Excitement: A time limit adds pressure, making the game more challenging and exciting. Players must think quickly, which can enhance the overall thrill of the game.
+__Acceptance Criteria:__
 
-- Uniform Experience: A consistent time limit ensures that all players have the same amount of time to answer each question, making the game fairer and more standardized.
+- __Timer Initialization:__
 
-- Limits Cheating Opportunities: The time constraint reduces the likelihood of players searching for answers online or consulting external resources, as they don't have enough time to do so within 10 seconds.
+A countdown timer should start from 10 seconds as soon as each new question is presented to the user.
+The timer should be visible to the user at all times during the quiz, clearly displaying the remaining time in seconds.
+
+- __Timer Behaviour:__
+
+If the user selects an answer before the 10 seconds expire, the timer should stop immediately.
+
+If the timer reaches zero before the user selects an answer, the question should be automatically marked as incorrect, and the quiz should proceed to the next question.
+
+- __Visual and UX Considerations:__
+
+The timer should be prominently displayed in a way that doesn't obstruct the question or answer choices.
+
+The countdown should be visually distinct and should clearly indicate when time is running out, possibly by changing color or flashing in the final seconds.
+
+- __Scoring and Progress:__
+
+The scoring system should remain consistent, with correct answers being rewarded regardless of how quickly they are selected within the 10-second window.
+
+The quiz should continue to progress smoothly from one question to the next, whether the user answers within the time limit or the timer expires.
+
+- __Edge Cases:__
+
+Ensure that the timer resets correctly for each new question.
+
+Handle scenarios where the user navigates away from the quiz or refreshes the page, ensuring that the timer and quiz state are appropriately managed.
+
+
 
 
 # User Stories
@@ -80,7 +107,8 @@
 
 - 20 Challenging Questions: Test your knowledge with a variety of questions from different subjects.
 
-- 10 seconds timer on each question for a more engaged and exciting UX.
+- 10 seconds timer on each question to help ensure fairness by providing a consistent time limit for each question, thereby enhancing the overall quality and competitiveness of the quiz.
+
 
 - Real-Time Scoring: Your score is displayed as you answer each question, giving you instant feedback.
 
