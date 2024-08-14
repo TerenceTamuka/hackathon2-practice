@@ -116,9 +116,9 @@ Favicon logo generated on: [Favicon Generator](https://favicon.io/logo-generator
 
 The home icon and crown icons where used from the [Fontawesome library](https://fontawesome.com/)
 
-#### Selected Colors
+### Selected Colors
 
-__Background color__ - Dark Cerulean
+__Application Background color__ - Dark Cerulean
 
 __Home, End Page & High Scores Page Navabar color__ - Orange Linear gradient 
 
@@ -126,7 +126,7 @@ __Application Handwritting color__ - White
 
 __Progress Bar color__ - Green
 
-__Question and Answer color__ - White
+__Question, Score and Answer color__ - White
 
 __Correct Answer__ - Green
 
@@ -135,7 +135,9 @@ __Incorrect Answer__ - Red
 __Answers Choice containter__ - Rust or Dark Orange
 
 
-### fonts
+
+
+## Fonts
 
 
 
