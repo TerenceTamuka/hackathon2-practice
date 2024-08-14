@@ -159,7 +159,7 @@ The home icon and crown icons where used from the [Fontawesome library](https://
 
 __Application Background color__ - Dark Cerulean
 
-__Home, End Page & High Scores Page Navabar color__ - Orange Linear gradient 
+__Home, End Page & High Scores Page Navabar color__ - Hot Pink or Deep Pink & Vivid Orange or Orange-Red Linear gradient 
 
 __Application Handwritting color__ - White
 
@@ -243,43 +243,94 @@ Mobile View:
 
 __1__ - As a **user** I want **to easily start the quiz from the home screen** so that **I can quickly begin answering questions**.
 
-![User story 1 Test]()
+- Ease of Access: Ensuring that the quiz can be easily started from the home screen is crucial for providing a smooth and intuitive user experience. If users have difficulty finding or starting the quiz, it can lead to frustration and potentially cause them to abandon the application.
+
+- First Impressions: The home screen is often the first point of interaction users have with the quiz application. A clear, easily accessible start button ensures a positive first impression and encourages users to engage with the content.
+
+[User story 1 Test]()
 
 __2__ - As a **user** I want **to see the current question number and my score as I progress through the quiz** so that **I can keep track of my performance**.
 
-![User story 2 Test]()
+- Progress Tracking: Displaying the current question number helps users understand how far they have progressed in the quiz. This feature motivates users to continue, especially as they near the end of the quiz.
+
+- Real-Time Feedback: Showing the score in real-time allows users to gauge their performance and encourages them to strive for better results. It adds an element of gamification, making the quiz more engaging and competitive.
+
+[User story 2 Test]()
 
 __3__ - As a **user**, I want **the quiz questions to be displayed clearly with multiple-choice options** so that **I can easily select my answers**.
 
-![User story 3 Test]()
+- Clarity and Accessibility: The primary function of a quiz is to present questions to users in a way that is easy to read and understand. Clear display of questions and options ensures that users can focus on answering rather than struggling to comprehend the content.
+
+- Intuitive Design: A clear and intuitive interface enhances user engagement by making the quiz easy and enjoyable to interact with. This is essential for keeping users interested and encouraging them to complete the quiz.
+
+[User story 3 Test]()
 
 __4__ - As a **user**, I want **to receive immediate feedback on my score after each question** so that **I can know how well I’m doing in real-time**.
 
-![User story 4 Test]()
+- Immediate Feedback Mechanism: Testing this feature ensures that the feedback system works seamlessly without delays or errors, contributing to the overall functionality and user-friendliness of the quiz application.
+
+- User-Centric Design: Providing real-time feedback aligns with user expectations in modern interactive applications. Ensuring this feature works correctly is crucial for meeting user needs and delivering a polished product.
+
+[User story 4 Test]()
 
 __5__ - As a **user**, I want **to view my final score after completing the quiz** so that **I can reflect on my overall performance**.
 
-![User story 5 Test]()
+- Completion Feedback: Providing a final score at the end of the quiz gives users a sense of closure and accomplishment. It's a crucial part of the user experience that helps users understand how well they performed overall, leaving them with a clear outcome.
 
-__6__ - As a **user**, I want **to be required to enter my name before saving my score** so that **the leaderboard displays personalized entries**.
+- Reflection and Learning: Viewing the final score allows users to reflect on their performance, identify areas where they did well, and recognize where they need improvement. This reflective process is important for users who take quizzes for learning purposes.
 
-![User story 6 Test]()
+[User story 5 Test]()
+
+__6__ - As a **user**, I want **to be required to enter my name before saving my score** so that **the leader board displays personalized entries**.
+
+- Identity and Ownership: Requiring users to enter their names before saving their scores adds a personal touch, making the experience more engaging. It allows users to feel a sense of ownership over their performance, which enhances their connection to the quiz.
+
+- Authenticity: Requiring a name entry before saving a score ensures that each score is authentic and traceable to a specific user. This reduces the likelihood of users attempting to manipulate the leaderboard with multiple anonymous entries.
+
+[User story 6 Test]()
 
 __7__ - As a **user**, I want **to see an error message if I try to save my score without entering my name** so that **I’m reminded to enter my name**.
 
-![User story 7 Test]()
+- Enhanced User Experience: Error messages are a critical part of user experience design. By providing immediate feedback on what went wrong, the application helps users correct their mistakes quickly, leading to a smoother and more intuitive interaction.
+
+- Preventing Incomplete Entries: Requiring a name entry before saving a score ensures that all leaderboard entries are complete and personalized. This maintains the integrity and usefulness of the leaderboard, preventing it from being cluttered with anonymous or incomplete entries.
+
+
+[User story 7 Test]()
 
 __8__- As a **user**, I want **to see the leaderboard with top scores after saving my score** so that **I can compare my performance with others**.
 
-![User story 8 Test]()
+- Seamless Navigation: Automatically displaying the leaderboard after score submission streamlines the user experience, eliminating the need for users to navigate manually to view the leaderboard. This convenience enhances the overall flow and user satisfaction.
+
+- Informed Decision-Making: Users can decide whether to take the quiz again to improve their ranking based on how they compare to the top scores, driving continued interaction with the quiz.
+
+
+[User story 8 Test]()
 
 __9__- As a **user**, I want **the option to replay the quiz from the leaderboard screen** so that **I can attempt to improve my score**.
 
-![User story 9 Test]()
+- Continuous Improvement: Allowing users to replay the quiz directly from the leaderboard screen promotes continuous engagement by providing an easy path for users to attempt higher scores. This feature encourages users to interact with the quiz more frequently.
+
+- Performance Tracking: Allowing users to replay the quiz facilitates tracking of performance improvements over time. This can be valuable for both users looking to see their progress and for administrators analyzing user engagement metrics.
+
+
+[User story 9 Test]()
 
 __10__ - As a **user**, I want **the quiz game to be accessible and responsive on various devices (e.g., desktop, tablet, mobile)** so that **I can enjoy the game on any device**.
 
-![User story 10 Test]()
+- Broad Reach: Ensuring that the quiz game works well across different devices maximizes its reach and accessibility. Users access content from a variety of devices, and accommodating this diversity ensures that the game is available to the widest audience.
+
+- Enhanced Usability: Responsive design ensures that all interactive elements (buttons, menus, etc.) are appropriately sized and functional on different devices. This enhances usability and encourages users to play the game more frequently.
+
+[User story 10 Test]()
+
+__11__ - As a **site manager**, I want to **enhance the quiz application by introducing a 10-second timer for each of the 20 questions in the quiz** so that **I can increase the challenge and engagement level for users, making the quiz more dynamic and exciting while encouraging quick thinking and fair competition**.
+
+- Dynamic Experience: Implementing a 10-second timer adds an element of urgency and excitement to the quiz, making it more dynamic and engaging. This time constraint encourages users to think quickly, adding a layer of challenge that can make the game more thrilling.
+
+- Equal Opportunity: Setting a uniform timer for all users ensures that everyone faces the same time constraints, promoting fairness in competition. This standardization helps level the playing field and ensures that scores are based on skill and knowledge, rather than timing advantages.
+
+[User story 11 Test]()
 
 
 ### Features For Future Implementation
@@ -400,7 +451,9 @@ Credit to stack overflow on understaning certain concepts used in this project.
 
 ## Acknowledgements
 
-Chat GPT with suggesting questions included in the game.
+- Chat GPT with suggesting questions included in the game.
+
+- Watched tutorials for HTML, CSS & JavaScript concepts used in this project on [Bro Code Youtube Channel](https://www.youtube.com/@BroCodez)
 
 
 ### Terry's General Knowledge Quiz Game Designed by
